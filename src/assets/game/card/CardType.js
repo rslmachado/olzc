@@ -1,0 +1,8 @@
+﻿var CardType = {
+	NEIGHBOR: 1,
+	LOANSHARK: 2,
+	NECROMANCER: 3,
+	FOODTRUCK: 4,
+	PREACHER: 5,	
+	CHICKEN: 6,
+};

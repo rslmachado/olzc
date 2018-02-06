@@ -1,0 +1,56 @@
+<html>
+	<meta name="viewport" content="width=device-width, user-scalable=yes">
+	<head>
+		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Almendra+SC" />
+		<link rel="stylesheet" type="text/css" href="assets/olzc.css" />
+
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+		<script>window.jQuery || document.write('<script src="assets/js/jquery-1.7.0/jquery.min.js"><\/script>')</script>
+
+		<script type="text/javascript" src="assets/js/gsap-1.19.0/TweenMax.min.js"></script>
+		<script type="text/javascript" src="assets/game/Game.js"></script>
+		<script type="text/javascript" src="assets/game/screen/ScreenManager.js"></script>
+		<script type="text/javascript" src="assets/game/card/Card.js"></script>
+		<script type="text/javascript" src="assets/game/card/CardType.js"></script>
+		<script type="text/javascript" src="assets/game/card/CardManager.js"></script>
+
+		<script type="text/javascript" src="assets/game/player/Player.js"></script>
+		<script type="text/javascript" src="assets/game/player/PlayerEvent.js"></script>
+		<script type="text/javascript" src="assets/game/player/PlayersManager.js"></script>
+		<script type="text/javascript" src="assets/game/player/PlayerType.js"></script>
+		<script type="text/javascript" src="assets/game/AIManager.js"></script>
+		<script type="text/javascript" src="assets/game/action/ActionManager.js"></script>
+
+		<style type="text/css">
+			body{
+				margin: 0px;
+			}
+
+			#game{
+				width: 550px;
+    			height: 400px;
+    			overflow:hidden;
+    			position: relative;
+			}
+		</style>
+	
+	</head>
+	<body>
+		<div id="game">
+			<div class="tgo-stage">
+				<div class="tgo-game-game">
+					<div class="board">
+						<div class="deck"></div>
+						<div class="discard"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript">
+		$(function(){
+			new Game(4, $("#game")).setup();
+		});
+	</script>
+</html>
