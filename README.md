@@ -8,4 +8,4 @@ Para entender o jogo você pode acessar diretamente as [regras em pdf](http://vi
 
 Alem do jogo, exite uma API com um inicio de interface (apenas um menu inicial), é necessário ser um servidor local, mas um exemplo pode ser visto [aqui](http://tchabs.000webhostapp.com/olzc/).
 
-O resultado final do jogo pode ser visto no console do browser.
+O resultado da partida pode ser visto no console do browser.
